@@ -1,6 +1,6 @@
 # XboxControllerBatteryCheck
 
-An alternative to check the battery life of Xbox Controllers connected via Bluetooth LE, featuring real-time status tracking and automated re-polling.
+An alternative to check the battery life of Xbox Controllers connected to Windows machines via Bluetooth LE, featuring real-time status tracking and automated re-polling.
 
 I found that the Xbox Game Bar was not providing me with accurate readings for my controller so I decided to write this script as a lightweight method to get a quick battery status.
 
