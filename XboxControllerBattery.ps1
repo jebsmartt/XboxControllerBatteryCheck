@@ -1,10 +1,3 @@
-# Hide the console window
-$win = Add-Type -MemberDefinition @'
-[DllImport("user32.dll")]
-public static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
-'@ -Name "Win32ShowWindow" -Namespace Win32Functions -PassThru
-$win::ShowWindow((Get-Process -Id $pid).MainWindowHandle, 0)
-
 Add-Type -AssemblyName System.Windows.Forms
 Add-Type -AssemblyName System.Drawing
 
